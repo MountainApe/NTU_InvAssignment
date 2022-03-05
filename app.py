@@ -25,7 +25,7 @@ def index():
     if request.method == "POST":
         income = request.form.get("income")
         age = request.form.get("age")
-        age = request.form.get("loan")
+        loan = request.form.get("loan")
         income = float(income)
         age = float(age)
         loan = float(loan)
